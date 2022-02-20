@@ -1,5 +1,5 @@
 #when the !desmos command had no arguments ?=
-'''
+
 import base64
 import requests
 from keep_alive import keep_alive
@@ -133,4 +133,3 @@ def createembed(num,searchterm,result,max_page,message):
 
 keep_alive()
 client.run(token)
-'''
